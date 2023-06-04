@@ -1,0 +1,107 @@
+object Form1: TForm1
+  Left = 234
+  Height = 381
+  Top = 160
+  Width = 512
+  Caption = 'Guest Book'
+  ClientHeight = 381
+  ClientWidth = 512
+  Constraints.MaxHeight = 384
+  Constraints.MaxWidth = 512
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object RandQuoteLabel: TLabel
+    Left = 19
+    Height = 15
+    Top = 15
+    Width = 153
+    Caption = 'Uma frase aleatoria por "%s":'
+    ParentColor = False
+  end
+  object RandQuoteMemo: TMemo
+    Left = 16
+    Height = 90
+    Top = 32
+    Width = 480
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object NameLEdit: TLabeledEdit
+    Left = 16
+    Height = 23
+    Hint = 'Seu nome! Pode ser uma apelido, @, o que quiser.'
+    Top = 184
+    Width = 477
+    EditLabel.Height = 15
+    EditLabel.Width = 477
+    EditLabel.Caption = 'Seu nome:'
+    EditLabel.ParentColor = False
+    MaxLength = 32
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object FakeLine: TBevel
+    Left = 16
+    Height = 3
+    Top = 144
+    Width = 480
+    Shape = bsTopLine
+  end
+  object YourQuoteLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 216
+    Width = 135
+    Caption = 'Uma frase ou mensagem:'
+    ParentColor = False
+  end
+  object YourQuoteMemo: TMemo
+    Left = 16
+    Height = 90
+    Hint = 'Pode ser qualquer coisa. Uma piada, uma citação, pensamentos, asneiras... Escreva a vontade!'
+    Top = 240
+    Width = 477
+    MaxLength = 200
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+    WantReturns = False
+  end
+  object SendBtn: TButton
+    Left = 192
+    Height = 25
+    Top = 344
+    Width = 128
+    Caption = 'Enviar!'
+    OnClick = SendBtnClick
+    TabOrder = 0
+  end
+  object SdfPeople: TSdfDataSet
+    FileMustExist = True
+    ReadOnly = False
+    FileName = 'db_people.csv'
+    Schema.Strings = (
+      'FieldName'
+      'FieldQuote'
+    )
+    FieldDefs = <    
+      item
+        Name = 'FieldName'
+        DataType = ftString
+        Precision = -1
+        Size = 20
+      end    
+      item
+        Name = 'FieldQuote'
+        DataType = ftString
+        Precision = -1
+        Size = 20
+      end>
+    Active = True
+    AllowMultiLine = False
+    Delimiter = ','
+    FirstLineAsSchema = True
+    StripTrailingDelimiters = False
+  end
+end

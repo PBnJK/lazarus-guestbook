@@ -1,0 +1,14 @@
+--- [C] Registrar frases na DB;
+||| [V] Evitar entradas vazias;
+||| [V] Pegar input do TEdit + TMemo;
+||| [V] Salvar na DB; 
+||| [V] Resolver bugs;
+---
+
+--- [] Pegar uma entrada aleatoria da DB a cada 1h.
+||| []
+
+Sdf.First
+
+>2
+Random(LineCount)
