@@ -56,6 +56,15 @@ object Form1: TForm1
     Caption = 'Uma frase ou mensagem:'
     ParentColor = False
   end
+  object CreditsBtn: TButton
+    Left = 240
+    Height = 25
+    Top = 344
+    Width = 75
+    Caption = 'Créditos'
+    OnClick = CreditsBtnClick
+    TabOrder = 4
+  end
   object YourQuoteMemo: TMemo
     Left = 16
     Height = 90
@@ -69,7 +78,7 @@ object Form1: TForm1
     WantReturns = False
   end
   object SendBtn: TButton
-    Left = 192
+    Left = 352
     Height = 25
     Top = 344
     Width = 128

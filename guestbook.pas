@@ -13,6 +13,7 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
+    CreditsBtn: TButton;
     FakeLine: TBevel;
     SdfPeople: TSdfDataSet;
     YourQuoteMemo: TMemo;
@@ -21,6 +22,7 @@ type
     NameLEdit: TLabeledEdit;
     RandQuoteMemo: TMemo;
     SendBtn: TButton;
+    procedure CreditsBtnClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure SendBtnClick(Sender: TObject);
   private
@@ -159,6 +161,11 @@ begin
   Writeln(TimeFile, UnixTS);
   Writeln(TimeFile, PDBIndex);
   CloseFile(TimeFile);
+end;
+
+procedure TForm1.CreditsBtnClick(Sender: TObject);
+begin
+  Application.MessageBox('Guest Book: por Pedro' + LineEnding + '04/06/2023' + LineEnding + LineEnding + 'Feito em Pascal com Lazarus' + LineEnding + LineEnding + 'Leia o README.md!!', 'Créditos', $00000040);
 end;
 
 procedure SaveQuoteToDB(DBPath: string; PName: string; PQuote: string);

@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="76"/>
+        <UsageCount Value="78"/>
       </Unit>
       <Unit>
         <Filename Value="guestbook.pas"/>
@@ -21,9 +21,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="143"/>
-        <CursorPos X="12" Y="146"/>
-        <UsageCount Value="76"/>
+        <TopLine Value="163"/>
+        <CursorPos X="29" Y="170"/>
+        <UsageCount Value="78"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -49,24 +49,15 @@
         <CursorPos X="19" Y="1046"/>
         <UsageCount Value="5"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="220"/>
+        <CursorPos X="38" Y="221"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="guestbook.pas"/>
-        <Caret Line="98" Column="24" TopLine="96"/>
-      </Position>
-      <Position>
-        <Filename Value="guestbook.pas"/>
-        <Caret Line="82" Column="17" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="guestbook.pas"/>
-        <Caret Line="115" Column="66" TopLine="97"/>
-      </Position>
-      <Position>
-        <Filename Value="guestbook.pas"/>
-        <Caret Line="98" Column="69" TopLine="87"/>
-      </Position>
       <Position>
         <Filename Value="guestbook.pas"/>
         <Caret Line="115" Column="55" TopLine="97"/>
@@ -169,6 +160,22 @@
       <Position>
         <Filename Value="guestbook.pas"/>
         <Caret Line="94" Column="62" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="guestbook.pas"/>
+        <Caret Line="142" Column="28" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="guestbook.pas"/>
+        <Caret Line="144" Column="28" TopLine="144"/>
+      </Position>
+      <Position>
+        <Filename Value="guestbook.pas"/>
+        <Caret Line="168" Column="60" TopLine="160"/>
+      </Position>
+      <Position>
+        <Filename Value="guestbook.pas"/>
+        <Caret Line="173" Column="95" TopLine="163"/>
       </Position>
     </JumpHistory>
     <RunParams>
