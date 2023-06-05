@@ -1,5 +1,14 @@
 # Guest Book
+Livro de Visitantes
+
 Feito no Lazarus em ~2-3 dias (nunca mexi com Pascal na minha vida, em minha defesa)
+
+## O que é isso?
+Oi, quero fazer uma lista com mensagens de todas as pessoas que usaram este notebook.
+
+A mensagem pode ser qualquer coisa; o nome pode ser um apelido; só escreva algo, por favor!
+
+Mensagens de outras pessoas aparecem no topo (atualizam a cada hora).
 
 ## Arquivos relevantes
 
